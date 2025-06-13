@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+
+header {
+    background-color: #171a21;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+
+.logo{
+    text-decoration: none;
+    color: #c6d4df;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: #c6d4df;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #ffff;
+}
+
+.first {
+  background-image: url(../pics/background/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.theme,.banner{
+  width:60%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+.theme{
+  margin-top: 50px;
+}
+
+.desc,.title{
+  margin-left:100px;
+  color: #eaeaea;
+  width: 60%;
+}
+.title{
+  margin-top:80px ;
+  font-weight: 800;
+  font-size: 2.6em;
+  text-shadow: 1px 1px 2px rgb(57,57,57);
+  text-transform: capitalize;
+}
+.desc{
+  font-weight: 600;
+  font-size: 1.7em;
+}
+
+.body{
+  background: linear-gradient(to bottom, #1b2838, #0e0f14);
+  padding-top: 100px ;
+  padding-bottom: 50px ;
+}
+
+.banner{
+  height: 700px;
+  width:72%;
+  object-position: center 10%;
+  margin-bottom: 80px;
+margin-top: 0;
+}
+
+.body h1{
+  margin-top:80px ;
+  margin-left: 100px;
+  color: #eaeaea;
+  font-weight: 800;
+  font-size: 2.6em;
+  text-shadow: 1px 1px 2px rgb(57,57,57);
+  text-transform: capitalize;
+}
+.story{
+  color: #c6d4df;
+  width: 60%;
+  margin-left:100px;
+  font-weight: 500;
+  font-size: 1.7em;
+}
+.leo-story{
+  font-style: italic;
+  font-weight: bold;
+}
+
+.download,.donate{
+  display: inline-block;
+  background: linear-gradient(to bottom, #00ff8f, #00d97b);
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 5px 3px;
+  color: #eee;
+  text-shadow: 1px 1px 2px rgb(57,57,57);
+  box-shadow: 0 4px 10px rgba(0, 255, 128, 0.6);
+  font-size: 28px;
+  font-weight: 900;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+    .download{
+      margin: 100px;
+      margin-right: 1px;
+      margin-top: 50px;
+    }
+    .donate{
+      margin: 100px;
+      margin-left: 0.4px;
+      margin-top: 50px;
+    }
+
+.download:hover, .donate:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+footer{
+  
+  background-color: #1f1f21;
+  padding: 60px;
+}
+
+footer h3 ,.p1 ,.p2{
+  text-transform: capitalize;
+  color: #91979f;
+  font-size: 1.5em;
+}
+
+.p1{
+  margin-top: 50px;
+}
+
+.p2{
+  margin-top: 20px;
+}
+.links{
+  display: inline-block;
+  text-decoration: underline;
+  text-transform: capitalize;
+  color: #91979f;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-left: 0px;
+}
+
+.a2{
+  margin-left: 10px;
+}
+
+.links:hover{
+  color:#fff;
+}
+
+.p3 ,.p4{
+  margin-top: 20px;
+  color: #91979f;
+  font-size: 1.5em;
+}
