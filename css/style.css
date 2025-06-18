@@ -1,43 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth; 
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; 
 }
-
 
 header {
-    background-color: #171a21;
-    width: 100%;
-    position: fixed;
-    z-index: 999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 200px ;
+  background-color: #171a21;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
 }
 
-.logo{
-    text-decoration: none;
-    color: #c6d4df;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1.8em;
+.logo {
+  text-decoration: none;
+  color: #c6d4df;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
 }
 
-.navigation a{
-    color: #c6d4df;
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: 500;
-    padding-left: 30px;
+.navigation a {
+  color: #c6d4df;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
 }
 
-.navigation a:hover{
-    color: #ffff;
+.navigation a:hover {
+  color: #ffff;
 }
 
 .first {
@@ -49,117 +48,158 @@ header {
   padding-bottom: 50px;
 }
 
-.theme,.banner{
-  width:60%;
+.theme, .banner {
+  width: 60%;
   object-fit: cover;
   display: block;
   margin: auto;
 }
-.theme{
+
+.theme {
   margin-top: 50px;
 }
 
-.desc,.title{
-  margin-left:100px;
+.desc, .title {
+  margin-left: 100px;
   color: #eaeaea;
   width: 60%;
 }
-.title{
-  margin-top:80px ;
+
+.title {
+  margin-top: 80px;
   font-weight: 800;
   font-size: 2.6em;
-  text-shadow: 1px 1px 2px rgb(57,57,57);
+  text-shadow: 1px 1px 2px rgb(57, 57, 57);
   text-transform: capitalize;
 }
-.desc{
+
+.desc {
   font-weight: 600;
   font-size: 1.7em;
 }
 
-.body{
+.body {
   background: linear-gradient(to bottom, #1b2838, #0e0f14);
-  padding-top: 100px ;
-  padding-bottom: 50px ;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
-.banner{
+.banner {
   height: 700px;
-  width:72%;
+  width: 72%;
   object-position: center 10%;
   margin-bottom: 80px;
-margin-top: 0;
+  margin-top: 0;
 }
 
-.body h1{
-  margin-top:80px ;
+.body h1 {
+  margin-top: 80px;
   margin-left: 100px;
   color: #eaeaea;
   font-weight: 800;
   font-size: 2.6em;
-  text-shadow: 1px 1px 2px rgb(57,57,57);
+  text-shadow: 1px 1px 2px rgb(24, 24, 24);
   text-transform: capitalize;
 }
-.story{
+
+.story {
   color: #c6d4df;
   width: 60%;
-  margin-left:100px;
+  margin-left: 100px;
   font-weight: 500;
   font-size: 1.7em;
 }
-.leo-story{
+
+.leo-story {
   font-style: italic;
   font-weight: bold;
 }
 
-.download,.donate{
+.container {
+  margin: 30px;
+  margin-left: 80px;
+  padding: 20px;
+  padding-top: 5px;
+  padding-left: 50px;
+  width: 40%;
+  background-image: linear-gradient(to bottom, #121b24, rgb(11, 19, 29));
+  box-shadow: 1px 1px 2px rgb(12, 18, 24);
+}
+
+.container h1 {
+  display: block;
+  color: #c6d4df;
+  margin: 10px;
+  margin-left: 50px;
+  margin-right: 0;
+}
+
+.download, .donate {
   display: inline-block;
   background: linear-gradient(to bottom, #00ff8f, #00d97b);
   border-radius: 10px;
   text-decoration: none;
   padding: 5px 3px;
   color: #eee;
-  text-shadow: 1px 1px 2px rgb(57,57,57);
+  text-shadow: 1px 1px 2px rgb(57, 57, 57);
   box-shadow: 0 4px 10px rgba(0, 255, 128, 0.6);
   font-size: 28px;
   font-weight: 900;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-    .download{
-      margin: 100px;
-      margin-right: 1px;
-      margin-top: 50px;
-    }
-    .donate{
-      margin: 100px;
-      margin-left: 0.4px;
-      margin-top: 50px;
-    }
+
+.download {
+  margin-right: 1px;
+}
+
+.donate {
+  margin-left: 0.4px;
+  margin-right: 0;
+}
 
 .download:hover, .donate:hover {
   transform: scale(1.1);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
 
-footer{
-  
+.body h2 {
+  margin: 40px;
+  margin-left: 80px;
+  text-transform: capitalize;
+  color: #c6d4df;
+  font-size: 3em;
+  font-weight: 800;
+}
+
+.tags {
+  margin-left: 100px;
+  text-transform: capitalize;
+  font-size: 2em;
+  font-weight: 400;
+  color: #91979f;
+  font-style: italic;
+}
+
+footer {
   background-color: #1f1f21;
   padding: 60px;
 }
 
-footer h3 ,.p1 ,.p2{
+footer h3, .p1, .p2 {
   text-transform: capitalize;
   color: #91979f;
   font-size: 1.5em;
 }
 
-.p1{
+.p1 {
   margin-top: 50px;
 }
 
-.p2{
+.p2 {
   margin-top: 20px;
 }
-.links{
+
+.links {
   display: inline-block;
   text-decoration: underline;
   text-transform: capitalize;
@@ -170,16 +210,86 @@ footer h3 ,.p1 ,.p2{
   margin-left: 0px;
 }
 
-.a2{
+.a2 {
   margin-left: 10px;
 }
 
-.links:hover{
-  color:#fff;
+.links:hover {
+  color: #fff;
 }
 
-.p3 ,.p4{
+.p3, .p4 {
   margin-top: 20px;
   color: #91979f;
   font-size: 1.5em;
+}
+
+/* steam-style gallery */
+.steam-gallery-container {
+  width: 72%;
+  max-width: 1100px;
+  margin: 80px auto 60px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  background-color: #000;
+}
+
+.steam-gallery-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.steam-gallery-slide img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  object-position: center 10%;
+}
+
+.steam-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 2;
+  user-select: none;
+}
+
+.steam-arrow:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.steam-arrow.left {
+  left: 10px;
+}
+
+.steam-arrow.right {
+  right: 10px;
+}
+
+.steam-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.steam-dots .dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.steam-dots .dot.active {
+  background-color: #66c0f4;
 }
