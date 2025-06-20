@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 header {
@@ -36,7 +36,7 @@ header {
 }
 
 .navigation a:hover {
-  color: #ffff;
+  color: #fff;
 }
 
 .first {
@@ -115,53 +115,65 @@ header {
   font-weight: bold;
 }
 
-.container {
-  margin: 30px;
-  margin-left: 80px;
-  padding: 20px;
-  padding-top: 5px;
-  padding-left: 50px;
-  width: 40%;
-  background-image: linear-gradient(to bottom, #121b24, rgb(11, 19, 29));
-  box-shadow: 1px 1px 2px rgb(12, 18, 24);
+/* ✅ Buttons Section */
+.section-download {
+  margin-left: 100px;
+  margin-top: 50px;
+  padding: 30px;
+  background: linear-gradient(to bottom, #121b24, rgb(11, 19, 29));
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  width: fit-content;
 }
 
-.container h1 {
-  display: block;
-  color: #c6d4df;
-  margin: 10px;
-  margin-left: 50px;
-  margin-right: 0;
+.section-download h1 {
+  color: #eaeaea;
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-.download, .donate {
-  display: inline-block;
-  background: linear-gradient(to bottom, #00ff8f, #00d97b);
-  border-radius: 10px;
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 25px;
+  font-size: 1.3em;
+  font-weight: bold;
   text-decoration: none;
-  padding: 5px 3px;
-  color: #eee;
-  text-shadow: 1px 1px 2px rgb(57, 57, 57);
-  box-shadow: 0 4px 10px rgba(0, 255, 128, 0.6);
-  font-size: 28px;
-  font-weight: 900;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  transition: 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px 1px #000;
 }
 
 .download {
-  margin-right: 1px;
+  background: linear-gradient(145deg, #00ff94, #00cc73);
+  color: white;
+}
+
+.download:hover {
+  background: linear-gradient(145deg, #00e688, #00b86a);
+  transform: scale(1.05);
 }
 
 .donate {
-  margin-left: 0.4px;
-  margin-right: 0;
+  background: linear-gradient(145deg, #ffd200, #ff9900);
+  color: white;
 }
 
-.download:hover, .donate:hover {
-  transform: scale(1.1);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+.donate:hover {
+  background: linear-gradient(145deg, #e6bc00, #e68a00);
+  transform: scale(1.05);
 }
 
+/* ✅ Other sections */
 .body h2 {
   margin: 40px;
   margin-left: 80px;
@@ -224,7 +236,7 @@ footer h3, .p1, .p2 {
   font-size: 1.5em;
 }
 
-/* steam-style gallery */
+/* ✅ Steam-style gallery */
 .steam-gallery-container {
   width: 72%;
   max-width: 1100px;
