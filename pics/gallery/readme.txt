@@ -1,1 +1,1 @@
-.
+we store game screenshots here ..
